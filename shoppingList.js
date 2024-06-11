@@ -14,3 +14,7 @@ let lastItem = shoppingList.pop();
 shoppingCart.push(lastItem);
 let firstItem = shoppingList.shift();
 shoppingCart.push(firstItem);
+while (shoppingList.length > 0) {
+    let item = shoppingList.shift();
+    shoppingCart.push(item);
+}
