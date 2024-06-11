@@ -18,3 +18,5 @@ while (shoppingList.length > 0) {
     let item = shoppingList.shift();
     shoppingCart.push(item);
 }
+shoppingCart.sort();
+shoppingCart.reverse();
