@@ -20,3 +20,4 @@ while (shoppingList.length > 0) {
 }
 shoppingCart.sort();
 shoppingCart.reverse();
+console.log(shoppingCart.join(', '));
