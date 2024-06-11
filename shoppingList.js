@@ -12,3 +12,5 @@ if (chipsIndex !== -1 && salsaIndex !== -1 && salsaIndex === chipsIndex + 1) {
 let shoppingCart = []
 let lastItem = shoppingList.pop();
 shoppingCart.push(lastItem);
+let firstItem = shoppingList.shift();
+shoppingCart.push(firstItem);
