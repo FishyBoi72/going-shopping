@@ -9,3 +9,4 @@ let salsaIndex = shoppingList.indexOf('salsa');
 if (chipsIndex !== -1 && salsaIndex !== -1 && salsaIndex === chipsIndex + 1) {
     shoppingList.splice(chipsIndex, 2, 'rice', 'beans');
 }
+let shoppingCart = []
